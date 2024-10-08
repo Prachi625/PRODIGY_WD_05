@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pre-Saved Weather Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather for Predefined Cities</h1>
+    <div class="form-group">
+      <label for="city-select">Choose a city:</label>
+      <select id="city-select">
+          <option value="london">London</option>
+          <option value="new_york">New York</option>
+          <option value="tokyo">Tokyo</option>
+          <option value="paris">Paris</option>
+          <option value="sydney">Sydney</option>
+          <option value="dubai">Dubai</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="toronto">Toronto</option>
+          <option value="berlin">Berlin</option>
+          <option value="beijing">Beijing</option>
+      </select>
+    </div>
+
+    <div class="weather-info">
+      <h2 id="city-name"></h2>
+      <p><strong>Condition:</strong> <span id="weather-condition"></span></p>
+      <p><strong>Temperature:</strong> <span id="temp-current"></span>°C</p>
+      <p><strong>Humidity:</strong> <span id="humidity"></span>%</p>
+      <p><strong>Wind Speed:</strong> <span id="wind-speed"></span> m/s</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

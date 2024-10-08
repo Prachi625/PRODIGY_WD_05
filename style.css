@@ -1,0 +1,97 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+{
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container 
+{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+  text-align: center;
+}
+
+h1 
+{
+  color: #00796b;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.form-group 
+{
+  margin-bottom: 20px;
+}
+
+label 
+{
+  font-weight: bold;
+  color: #00796b;
+}
+
+select 
+{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #00796b;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #00796b;
+  background-color: #f1f1f1;
+}
+
+.weather-info 
+{
+  background-color: #f0f4c3;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  display: none;
+}
+
+.weather-info p 
+{
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+h2 
+{
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+p strong 
+{
+  color: #388e3c;
+}
+
+#city-name 
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) 
+{
+  .container 
+  {
+    width: 100%;
+    padding: 20px;
+  }
+}
